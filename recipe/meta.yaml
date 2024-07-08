@@ -26,7 +26,7 @@ requirements:
     - requests >=2.0.0
   run_constrained:
     # oathlib[signedtoken] is taken from https://github.com/oauthlib/oauthlib/blob/v3.2.2/setup.py#L20
-    - ryptography >=3.0.0
+    - cryptography >=3.0.0
     - pyjwt >=2.0.0,<3
 
 test:
